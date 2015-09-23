@@ -4,6 +4,7 @@ Tutorial for Git and Github
 1. Peemin
   1. History of Github
     - Discuss command line and GUI versions -> Windows/Mac
+  2. Git guis + basic features
 2. Margaret
   1. history of Git/Major fefatures
   2. How to use git on windows
