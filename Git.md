@@ -1,2 +1,2 @@
 
-## A Brief History of Git 
+# A Brief History of Git 
