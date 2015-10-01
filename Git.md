@@ -14,3 +14,12 @@ Goals of the New System:
 * Able to handle large projects like the Linux kernel efficiently (speed and data size)
 
 With these goals in mind, Git was created in 2005. 
+
+**Source:** https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git
+
+####To Install
+1. Please go to the following link: https://git-scm.com/
+2. Go to the download page and download git for your appropriate operating system. 
+
+
+
