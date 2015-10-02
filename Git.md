@@ -43,6 +43,9 @@ print("Hello World!")
 
 After checking in these changes, also refered to as a *commit*, this updated version of the code would be version 1. You can also change multiple files at once and check all of them in at the same time. 
 
+The image below shows a visual example of the process described above: 
+![Commit!]("So cute!")
+
 Version Control is very useful for the following reasons: 
 * If for some reason, you need to go back to an older version of your file or files, **you can revert the project back to a previous state**
 * **You can compare changes over time.**  This is useful for the following reasons: 
