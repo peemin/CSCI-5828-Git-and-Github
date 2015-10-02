@@ -26,7 +26,8 @@ With these goals in mind, Git was created in 2005.
 To understand Git, one must have a basic understanding of version control. The Git website describes version control as the following 
 > Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. 
 
-For example, suppose you create a file called `HelloWorld.py` with some initial content, as shown below. 
+###Example
+Suppose you create a file called `HelloWorld.py` with some initial content, as shown below. 
 
 ```
 print("Hello World!")
