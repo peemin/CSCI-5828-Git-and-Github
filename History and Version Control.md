@@ -1,4 +1,4 @@
-#Git
+#Git - History and Version Control
 In this section, we present a brief history of git an an overview of version control. 
 
 ## A Brief History of Git 
@@ -65,10 +65,8 @@ http://blogs.atlassian.com/2012/02/version-control-diffs-patches/
 
 ##Next Section
 
-Now that we understand a bit about Version Control, in the next section, we will discuss branching and merging. 
+Now that we understand a bit about Version Control, in the next section, we will discuss [branching and merging](https://github.com/peemin/CSCI-5828-Git-and-Github/blob/mw-branch/Merging%20and%20Branching.md). 
 You may also go back to the Table of Contents. 
-
-Next up, head to the material on [GitHub](https://github.com/kenbod/markdown_github_01/blob/master/GitHub.md) 
 
 The following link gives a different, but good explanation of topics explained above: 
 http://betterexplained.com/articles/a-visual-guide-to-version-control/
