@@ -19,7 +19,14 @@ With these goals in mind, Git was created in 2005.
 
 ####To Install
 1. Please go to the following link: https://git-scm.com/
-2. Go to the download page and download git for your appropriate operating system. 
+2. Go to the download page and download git for your appropriate operating system.
+
+## Version Control 
+
+To understand Git, one must have a basic understanding of version control. The Git website describes version control as the following 
+> Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. 
+
+For example, suppose you create a file called `HelloWorld.py` with some initial content, as shown below. 
 
 
 
