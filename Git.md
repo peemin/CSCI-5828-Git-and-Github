@@ -28,5 +28,20 @@ To understand Git, one must have a basic understanding of version control. The G
 
 For example, suppose you create a file called `HelloWorld.py` with some initial content, as shown below. 
 
+```
+print("Hello World!")
+```
 
+This is then checked in as *Version 0*. 
 
+You then decide you'd like to add more code to the file so you make the following change. 
+
+```
+print("This is an example program that shows how to print lines to the console.")
+print("Hello World!")
+```
+
+After checking in these changes, also refered to as a *commit*, this updated version of the code would be version 1. You can also change multiple files at once and check all of them in at the same time. 
+
+**Sources:**https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+http://www.cs.colorado.edu/~kena/classes/5828/f15/lectures/02-git.pdf
