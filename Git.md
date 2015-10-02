@@ -43,5 +43,14 @@ print("Hello World!")
 
 After checking in these changes, also refered to as a *commit*, this updated version of the code would be version 1. You can also change multiple files at once and check all of them in at the same time. 
 
+Version Control is very useful for the following reasons: 
+* If for some reason, you need to go back to an older version of your file or files, **you can revert the project back to a previous state**
+* **You can compare changes over time.**  This is useful for the following reasons: 
+ * Without version control, every time a change is made, a new file would have to be created. This can result in a cluttered project folder and hard drive. 
+ * If a change is made by more than one person and/or on the same date, a labeling system to distinguish between the changes can become very complicated. 
+ * If the hard drive fails, if the project is stored locally, the entire history of the project disappears, if it is not simultaneously backed up in other places. 
+ * If a coworker needs to look at the changes made between two or more files, all of the files would have to be sent to them for comparison. 
+
+In conclusion, version control provides an easy way to save space, view changes over time, safely store a software project, and compare changes between files. 
 **Sources:**https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 http://www.cs.colorado.edu/~kena/classes/5828/f15/lectures/02-git.pdf
