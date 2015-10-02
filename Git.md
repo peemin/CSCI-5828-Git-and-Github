@@ -60,3 +60,7 @@ In conclusion, version control provides an easy way to save space, view changes 
 http://www.cs.colorado.edu/~kena/classes/5828/f15/lectures/02-git.pdf
 
 http://blogs.atlassian.com/2012/02/version-control-diffs-patches/
+
+The following link gives a different, but good explanation of topics explained above: 
+http://betterexplained.com/articles/a-visual-guide-to-version-control/
+http://betterexplained.com/articles/a-visual-guide-to-version-control/
