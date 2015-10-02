@@ -1,5 +1,5 @@
 #Git
-In this section, we present an overview of Git and its important and major features. 
+In this section, we present a brief history of git an an overview of version control. 
 
 ## A Brief History of Git 
 Git originated from the Linux kernel, a very large open source project. For most of the life of its maintainence, changes to the kernel were passed as patches and archived files. At the end of the maintence (2002), the project began using a proprietary DVCS called BitKeeper. 
@@ -61,6 +61,12 @@ http://www.cs.colorado.edu/~kena/classes/5828/f15/lectures/02-git.pdf
 
 http://blogs.atlassian.com/2012/02/version-control-diffs-patches/
 
+##Next Section
+
+Now that we understand a bit about Version Control, in the next section, we will discuss branching and merging. 
+You may also go back to the Table of Contents. 
+
+Next up, head to the material on [GitHub](https://github.com/kenbod/markdown_github_01/blob/master/GitHub.md) 
+
 The following link gives a different, but good explanation of topics explained above: 
-http://betterexplained.com/articles/a-visual-guide-to-version-control/
 http://betterexplained.com/articles/a-visual-guide-to-version-control/
