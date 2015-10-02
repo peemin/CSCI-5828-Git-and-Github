@@ -52,5 +52,8 @@ Version Control is very useful for the following reasons:
  * If a coworker needs to look at the changes made between two or more files, all of the files would have to be sent to them for comparison. 
 
 In conclusion, version control provides an easy way to save space, view changes over time, safely store a software project, and compare changes between files. 
+
 **Sources:**https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 http://www.cs.colorado.edu/~kena/classes/5828/f15/lectures/02-git.pdf
+
+http://blogs.atlassian.com/2012/02/version-control-diffs-patches/
