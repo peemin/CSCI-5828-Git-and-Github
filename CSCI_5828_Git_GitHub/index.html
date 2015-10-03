@@ -279,11 +279,11 @@ print("Hello World!")</code></pre></div></div></section><section><div class="sl-
 <p style="color:rgb(183, 183, 183)"><span style="font-size:1.4em">​</span></p>
 
 <ul>
-	<li style="color: rgb(173, 173, 173);">
-	<p><span style="font-size:26.1334px; line-height:33.9734px">Merging is the opposite of creating a branch. It is Git's way of putting two branches back together again. </span></p>
+	<li style="color:rgb(173, 173, 173)">
+	<p><span style="font-size:26.1334px">Merging is the opposite of creating a branch. It is Git's way of putting two branches back together again. </span></p>
 	</li>
-	<li style="color: rgb(173, 173, 173);">
-	<p><span style="font-size:26.1334px; line-height:33.9734px">Once a feature is finished on a separate branch, it is important to integrate it into the main part of your project. </span></p>
+	<li style="color:rgb(173, 173, 173)">
+	<p><span style="font-size:26.1334px">Once a feature is finished on a separate branch, it is important to integrate it into the main part of your project. </span></p>
 	</li>
 </ul>
 </div></div>
@@ -313,7 +313,151 @@ print("Hello World!")</code></pre></div></div></section><section><div class="sl-
 <div class="sl-block" data-block-type="text" data-block-id="e38533a17569e5ea2ee02dd8eea9516d" style="height: auto; min-width: 30px; min-height: 30px; width: 447px; left: 0px; top: 662px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 50%;">
 <p style="text-align:left"><span><span style="color:rgb(183, 183, 183); font-size:13.3333px">Source: https://www.atlassian.com/git/tutorials/using-branches/git-merge</span></span></p>
 </div></div>
-<div class="sl-block" data-block-type="image" data-block-id="5d88e872f147d15fa2c764ebc696e71d" style="min-width: 30px; min-height: 30px; width: 472px; height: 262.897px; left: 427px; top: 386.551px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="544" data-natural-height="303" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/383873/images/1790253/Merging.PNG"></div></div></section>
+<div class="sl-block" data-block-type="image" data-block-id="5d88e872f147d15fa2c764ebc696e71d" style="min-width: 30px; min-height: 30px; width: 472px; height: 262.897px; left: 427px; top: 386.551px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="544" data-natural-height="303" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/383873/images/1790253/Merging.PNG"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 8px; height: auto;" data-block-id="c7ca2b14cd079beeadc39d0a7e14deda"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<p><span style="font-size:1.8em"><span style="color:rgb(255, 255, 255)">Conflicts</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 962px; left: 0px; top: 115px; height: auto;" data-block-id="a260f56f319f14636bfbf39b7ceeb1c2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li>
+	<p><font color="#b7b7b7"><span style="font-size:33.6001px; line-height:43.6801px">There are many times when git is unable to do a successful merge automatically</span></font></p>
+	</li>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px; line-height:43.6801px">If two branches changed the same part of the file and are then merged, Git will not be able to decide which version to use. </span></p>
+	</li>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px; line-height:43.6801px">In this case, Git will stop the merge and give a conflict error message. You will then have to open the file(s) and manually fix the conflict. </span></p>
+	</li>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px; line-height:43.6801px">Then, all you would have to do is add the file and commit it to the current repository. </span></p>
+	</li>
+</ul>
+</div></div>
+
+
+</section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 8px; height: auto;" data-block-id="4d1bc3f7c4c10c1a6e7a65df87506c76"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<p><span style="font-size:1.8em"><span style="color:rgb(255, 255, 255)">Rebasing(1)</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 962px; left: -2px; top: 121px; height: auto;" data-block-id="9a55c77a89562e69d024f87cd5b6349c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px">Rebasing, like merge, is used to integrate changes from one branch to another. </span></p>
+	</li>
+	<li style="color:rgb(183, 183, 183)"><span style="color:rgb(183, 183, 183); font-size:33.6001px; text-align:left">Unlike the merge command, the rebase command does not maintain the commit history in separate branches. </span></li>
+	<li style="color:rgb(183, 183, 183)">
+<span style="color:rgb(183, 183, 183); font-size:33.6001px; text-align:left">With the rebase command, it takes all the changes that were made on one branch and integrates them into the master branch.</span><span style="font-size:1.4em">​</span>
+</li>
+</ul>
+</div></div>
+
+
+</section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 8px; height: auto;" data-block-id="6c93b9cd776f8e555aaa1e652040a460"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<p><span style="font-size:1.8em"><span style="color:rgb(255, 255, 255)">Rebasing(2)</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 962px; left: 0px; top: 115px; height: auto;" data-block-id="2f8fcda236d4f9319adfead6ca439bff"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px; line-height:43.6801px">Returning to our Merge Example: </span></p>
+
+	<ul style="font-size:18.6667px">
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+		<p><span style="font-size:1.4em">Suppose you have finished coding all aspects of “Some Feature”. You have made several commits on the “Some Feature” branch and are ready to integrate it back into your main project. </span></p>
+		</li>
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px"><span style="font-size:1.4em">In this case you would call the “git rebase” command and replay the "Feature" branch onto the master branch. </span></li>
+	</ul>
+	</li>
+</ul>
+</div></div>
+
+
+<div class="sl-block" data-block-type="image" data-block-id="24d504bb67f56f76194157f4760fe4ed" style="min-width: 30px; min-height: 30px; width: 493.479px; height: 276px; left: 394px; top: 354px;"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="624" data-natural-height="349" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/383873/images/1790268/Rebasing.PNG"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 8px; height: auto;" data-block-id="eecf10dcb6266d9d75de5a8488874d00"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<p><span style="font-size:1.8em"><span style="color:rgb(255, 255, 255)">Rebasing(3)</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 962px; left: 0px; top: 115px; height: auto;" data-block-id="07bbba4de8a7fdad464483e6b7254055"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px">The major benefit of rebase is to create a cleaner project history. </span></p>
+
+	<ul style="font-size:18.6667px">
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+		<p><span style="font-size:1.4em">It eliminates the merge commits required by git merge. </span></p>
+		</li>
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px"><span style="font-size:1.4em">In Rebasing results in a linear project history. It makes it easier to navigate the git log, git bisect, and gitk. <span style="font-size:1.4em">​</span></span></li>
+	</ul>
+	</li>
+</ul>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 962px; left: -2px; top: 333px; height: auto;" data-block-id="7c7a36a2faf77906c32ebede8295c24e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<ul>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px">Re-writing project history may result in a cleaner project history, but it can negatively impact the collaborative workflow. </span></p>
+
+	<ul style="font-size:18.6667px">
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+		<p><span style="font-size:1.4em">Rebasing loses the history contects that merge provides. </span></p>
+
+		<ul>
+			<li style="color:rgb(173, 173, 173); font-size:18.6667px"><span style="font-size:1.4em"><span style="font-size:0.7em">You won't be able to see when the changes were incorporated</span></span></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="85a1302995da2e1c8f0a2d7f5e3f78f1" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 348px; top: 614px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: right;" dir="ui">
+<p><span><span style="color:rgb(183, 183, 183); font-size:13.3333px">Source: </span><span style="color:rgb(77, 208, 225); font-size:13.3333px"><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing" target="_blank">https://www.atlassian.com/git/tutorials/merging-vs-rebasing</a></span></span></p>
+
+<p><span><span style="color:rgb(77, 208, 225); font-size:13.3333px">​</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="5f7a79bb54279579a40835eed0dfff7e" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 464px; top: 630px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span><span style="color:rgb(183, 183, 183); font-size:13.3333px">http://www.git-scm.com/book/en/v2/Git-Branching-Rebasing</span></span></p>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 8px; height: auto;" data-block-id="7d21b7a81b5ef86bc8d75e302d03a857"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<p><span style="font-size:1.8em"><span style="color:rgb(255, 255, 255)">Git Commands</span></span></p>
+</div></div>
+
+
+
+</section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 8px; height: auto;" data-block-id="4656613f6ccbe64a713bbf985ecbd736"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<p><span style="font-size:1.8em"><span style="color:rgb(255, 255, 255)">Github</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 962px; left: 0px; top: 115px; height: auto;" data-block-id="bd9c2048b9ca8dc80ba6a115ac1b7fb7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px">Github is a web-based repository hosting service. </span></p>
+	</li>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px">At the heart of Github is Git</span></p>
+	</li>
+	<li style="color:rgb(183, 183, 183)">
+	<p><span style="font-size:33.6001px">There are two flavors of Github<span style="font-size:33.6001px">​</span></span></p>
+
+	<ul>
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+		<p><span style="font-size:1.4em">Github Enterprise (Paid Version)</span></p>
+
+		<ul>
+			<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+			<p style="color:rgb(173, 173, 173); font-size:18.6667px"><span style="font-size:0.9em">​​<span style="font-size:1.2em">Private Repositories</span></span></p>
+			</li>
+			<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+			<p style="color:rgb(173, 173, 173); font-size:18.6667px"><span style="font-size:1.2em">Public Repositories</span></p>
+			</li>
+		</ul>
+		</li>
+		<li style="color:rgb(173, 173, 173); font-size:18.6667px">
+<span style="font-size:1.4em">Free Accounts</span>
+		<ul>
+			<li style="color:rgb(173, 173, 173); font-size:18.6667px"><span style="font-size:1.2em">​Public Repositories</span></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div></div>
+
+
+</section>
 			</div>
 		</div>
 
