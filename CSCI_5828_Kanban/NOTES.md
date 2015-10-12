@@ -1,9 +1,13 @@
 **This document shows the information gathering we have done over the course of the project.**
 
 *Websites/References:*
+
 https://en.wikipedia.org/wiki/Kanban_(development)
+
 http://www.infoq.com/articles/David-Anderson-Kanban
+
 http://kanbanblog.com/explained/
+
 https://www.atlassian.com/agile/kanban
 
 
