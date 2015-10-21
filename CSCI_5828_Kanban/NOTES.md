@@ -19,6 +19,9 @@ The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly tra
 
 David Anderson fthe pioneer of Kanban was inspired by the Toyota Production System and the Lean Manufacturing system.  
 
+**What is just in time delivery**
+
+
 **Kanban Process:**
 * Kanban is rooted in four basic principles:
   * Start with existing process
