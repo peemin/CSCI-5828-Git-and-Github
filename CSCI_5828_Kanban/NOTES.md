@@ -14,6 +14,8 @@ http://www.beyondlean.com/kanban.html
 
 https://en.wikipedia.org/wiki/Lean_software_development
 
+http://www.infoq.com/articles/hiranabe-lean-agile-kanban
+
 
 **What is Kanban:**
 
