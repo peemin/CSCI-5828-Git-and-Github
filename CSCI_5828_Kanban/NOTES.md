@@ -10,6 +10,8 @@ http://kanbanblog.com/explained/
 
 https://www.atlassian.com/agile/kanban
 
+http://www.beyondlean.com/kanban.html
+
 
 **What is Kanban:**
 
@@ -17,7 +19,17 @@ A framework to manage knowlege base work, such as software development, with an 
 
 The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly translates to signboard or Billboard.
 
-David Anderson fthe pioneer of Kanban was inspired by the Toyota Production System and the Lean Manufacturing system.  
+**Origins of Kanban:**
+In the 1940's, Toyoto studied supermarkets as a model of shelf-stocking techniques for the factory floor.
+
+At any given time, the supermarket only stocks only what it expects to sell
+Since future supply is assured, the customer retrieve only the item needed at the required time
+This then causes the store to restock.
+In supermarkets, signboards are used to guide the "shopping" processes to specific locations within the store
+
+Kanban aligns inventory levels with actual consumption. A signal tells a supplier to produce and deliver a new shipment when material is consumed. These signals are tracked through the replenishment cycle, bringing visibility to the supplier, consumer, and buyer.
+
+Kanban uses the rate of demand to control the rate of production, passing demand from the end customer up through the chain of customer-store processes. In 1953, Toyota applied this logic in their main plant machine shop.
 
 **What is just in time delivery?**
 
