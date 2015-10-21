@@ -19,7 +19,16 @@ The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly tra
 
 David Anderson fthe pioneer of Kanban was inspired by the Toyota Production System and the Lean Manufacturing system.  
 
-**What is just in time delivery**
+**What is just in time delivery?**
+
+The nature of just-in-time, meaning JIT manufacturing/production or JIT in any other setting, may be reduced to four somewhat differently stated views.
+
+1. Many have said that JIT revolves around wastes: "At its core, JIT is a waste-elimination philosophy . . . ." Among the earliest writings on the matter, Shingo lists, as the "7 wastes," the wastes of: over-production, waiting, transportation, processing itself, stocks [inventories], motion, and making defective products.
+2. Others have equated JIT production with kanban. For example, one book has both kanban and just-in-time in its main title.
+3. Still others assert that JIT's main aim is elimination of inventories, although Murray maintains that "JIT is defined as 'NOT an inventory control system—but a way of thinking, working and management to eliminate wastes in the manufacturing process'.[28] In keeping with that view, JIT manufacturing has often been referred to in contrast to the more conventional just-in-case (JIC) mode: JIC keeps extra inventories to be used in case of disruptions (e.g., scrap, rework, equipment breakdowns, late deliveries), whereas JIT continually reduces such inventory buffers by continually attacking causes of disruptions.[29][need quotation to verify] Zero Inventories is the title of a 1983 book by Hall,[30] but the book actually does not suggest that JIT is mainly about inventory; rather the book features quick setup, cells (group technology), kanban, and so on, and zero inventory is posed only as an unattainable ideal, one that is easy to see and count
+4. The fourth view is that JIT is mainly about quick response, relating to the "T"—for "time"—in JIT. As Blackburn put it, "Quick response is one of the major benefits of JIT. Time or speed is the linchpin of this manufacturing philosophy. Inventory, on the other hand, is an ancillary benefit."[31] Quick response refers alternatively to reduction of cycle times,[32] flow times, throughput times, and, all the way to the customer, lead times: "JIT," according to Bicheno, has the "provocative goal," of producing "instantaneously, with perfect quality and minimum waste," and he goes on to qualify "instantaneously" by saying, "The ideal way to produce the end product is literally just in time to meet the market demand for it. Thus, JIT is primarily a lead-time reduction programme."[33]
+
+A methodology aimed primarily at reducing flow times within production as well as response times from suppliers and to customers
 
 
 **Kanban Process:**
