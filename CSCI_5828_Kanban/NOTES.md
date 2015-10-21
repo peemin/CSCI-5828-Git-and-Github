@@ -12,6 +12,8 @@ https://www.atlassian.com/agile/kanban
 
 http://www.beyondlean.com/kanban.html
 
+https://en.wikipedia.org/wiki/Lean_software_development
+
 
 **What is Kanban:**
 
