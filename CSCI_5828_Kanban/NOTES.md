@@ -16,6 +16,7 @@ https://en.wikipedia.org/wiki/Lean_software_development
 
 http://www.infoq.com/articles/hiranabe-lean-agile-kanban
 
+http://www.slideshare.net/fabokzs/kanban-basics-for-beginners
 
 **What is Kanban:**
 
@@ -26,14 +27,17 @@ The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly tra
 **Origins of Kanban:**
 In the 1940's, Toyoto studied supermarkets as a model of shelf-stocking techniques for the factory floor.
 
-At any given time, the supermarket only stocks only what it expects to sell
-Since future supply is assured, the customer retrieve only the item needed at the required time
-This then causes the store to restock.
-In supermarkets, signboards are used to guide the "shopping" processes to specific locations within the store
+The Goal was to develop a process that would:
+1. Maximize customer value while minimizing waste
+2. Improve the production process continously
+3. Bring out the best from the people.
 
-Kanban aligns inventory levels with actual consumption. A signal tells a supplier to produce and deliver a new shipment when material is consumed. These signals are tracked through the replenishment cycle, bringing visibility to the supplier, consumer, and buyer.
+Supermarket analogy:
+1. At any given time, the supermarket only stocks only what it expects to sell
+2. Since future supply is assured, the customer retrieve only the item needed at the required time
+3. This then causes the store to restock.
+4. In supermarkets, signboards are used to guide the "shopping" processes to specific locations within the store
 
-Kanban uses the rate of demand to control the rate of production, passing demand from the end customer up through the chain of customer-store processes. In 1953, Toyota applied this logic in their main plant machine shop.
 
 **What is just in time delivery?**
 
@@ -58,3 +62,10 @@ A methodology aimed primarily at reducing flow times within production as well a
   * Leadership at all levels
     * Acts of leadership at all levels in the organization, from individual contributors to senior management, are encouraged.
 
+**Kanban Cards**
+Similar to agile story cards, Kanban cards are a key component of Kanban.  
+They are use to signal the need to move materials (stories) with in the production process.
+
+Need example of how the Kanban Card moves down the kanban board:
+1. visualize the Kanban board.
+2. how restocking occurs.
