@@ -2,6 +2,8 @@
 
 *Websites/References:*
 
+http://www.methodsandtools.com/archive/archive.php?id=104
+
 https://en.wikipedia.org/wiki/Kanban_(development)
 
 http://www.infoq.com/articles/David-Anderson-Kanban
