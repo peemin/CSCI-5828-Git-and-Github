@@ -32,6 +32,12 @@ The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly tra
 
 In the early 1950s, Ohno observed how customers only picked up the number of items they needed from the grocery store. In turn, the supermarket replenished the supply — at the right time and in the required amounts. This got Ohno thinking about how to eliminate waste on the production line.
 
+Back then, parts moved to the next stage as soon as they were completed. Employees didn't communicate with each other about their needs. However, Ohno realized it would be more efficient if an employee in the later stage of the process informed a worker in the previous phase how many parts he needed and when. With Ohno's "supermarket formula," only enough parts were produced in the former phases to replace what was used in the next.
+
+At first, parts shortages and line stoppages happened frequently, because floor employees weren't used to the method. Yet, Ohno didn't worry. He emphasized the importance of locating the cause each time a problem occurred. It then became clear to the person in charge of each stage that there was an urgent need to adjust the production speed and improve the process.
+
+The Kanban System, later established in all Toyota factories, helped to ease Ohno's philosophy into a working practice. Under this setup, employees created signboards, or kanban, to transfer information between processes, such as the number of parts that had to be filled. The Kanban System eventually helped the production flow function more smoothly, a fact reflected in quality and productivity. Kanban took on many forms as part of the Just-in-Time System. In the end, pointing out errors and providing countermeasures became key to achieving kaizen (continuous improvement) in all the activity areas — from production to sales and marketing.
+
 The Goal was to develop a process that would:
 1. Maximize customer value while minimizing waste
 2. Improve the production process continously
