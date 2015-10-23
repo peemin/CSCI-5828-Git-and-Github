@@ -61,7 +61,6 @@ The nature of just-in-time, meaning JIT manufacturing/production or JIT in any o
 
 A methodology aimed primarily at reducing flow times within production as well as response times from suppliers and to customers
 
-
 **Kanban Process:**
 * Kanban is rooted in four basic principles:
   * Start with existing process
@@ -73,14 +72,24 @@ A methodology aimed primarily at reducing flow times within production as well a
   * Leadership at all levels
     * Acts of leadership at all levels in the organization, from individual contributors to senior management, are encouraged.
 
+** Kanban in the context of software development **
+Kanban in the context of software development can mean a visual process-management system that tells what to produce, when to produce it, and how much to produce
+
+Formulated by David Anderson, the Kanban Method is as an approach to incremental, evolutionary process and systems change for organizations. It uses a work-in-progress limited pull system as the core mechanism to expose system operation (or process) problems and stimulate collaboration to continuously improve the system. Visualisation is an important aspect of Kanban as it allows to understand the work and the workflow
+
 **Kanban Cards**
 Similar to agile story cards, Kanban cards are a key component of Kanban.  
 They are use to signal the need to move materials (stories) with in the production process.  
 
 There is a belief held that demand-driven systems lead to faster turnarounds in production and lower inventory levels, helping companies implementing such systems be more competitive.
 
-** Kanban in the context of software development **
-Kanban in the context of software development can mean a visual process-management system that tells what to produce, when to produce it, and how much to produce
+**Kanban Board**
+A kanban board is one of the tools which can be used to implement the kanban method for a project.
+
+Kanban boards are perceived as a variation on traditional kanban cards. Instead of the signal cards that represent demand or capacity, the board utilizes magnets, plastic chips, colored washers or sticky notes to represent work items.  Each of these objects represents an item in a production process as it moves around the board. Its movement corresponds with a process.  At its simplest, the board is usually divided into three sections: "To do", "In Progress" and "Done". Complex Kanban boards can be created that visualise the flow of work across development process. Employees move cards to the section on the board that coincides with the receptacle it represents.
+
+The most popular example of kanban board for agile or lean software development consists of: Backlog, Ready, Coding, Testing, Approval and Done columns. It is also a common practice to name columns in a different way, for example: Next, In Development, Done, Customer Acceptance, Live
+
 
 Need example of how the Kanban Card moves down the kanban board:
 1. visualize the Kanban board.
