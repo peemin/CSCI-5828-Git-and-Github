@@ -79,7 +79,8 @@ They are use to signal the need to move materials (stories) with in the producti
 
 There is a belief held that demand-driven systems lead to faster turnarounds in production and lower inventory levels, helping companies implementing such systems be more competitive.
 
-
+** Kanban in the context of software development **
+Kanban in the context of software development can mean a visual process-management system that tells what to produce, when to produce it, and how much to produce
 
 Need example of how the Kanban Card moves down the kanban board:
 1. visualize the Kanban board.
