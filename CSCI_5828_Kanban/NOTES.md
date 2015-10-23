@@ -29,7 +29,8 @@ A framework to manage knowlege base work, such as software development, with an 
 The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly translates to signboard or Billboard.
 
 **Origins of Kanban:**
-In the 1940's, Toyoto studied supermarkets as a model of shelf-stocking techniques for the factory floor.
+
+In the early 1950s, Ohno observed how customers only picked up the number of items they needed from the grocery store. In turn, the supermarket replenished the supply — at the right time and in the required amounts. This got Ohno thinking about how to eliminate waste on the production line.
 
 The Goal was to develop a process that would:
 1. Maximize customer value while minimizing waste
