@@ -26,7 +26,7 @@ http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/
 
 A framework to manage knowlege base work, such as software development, with an emphisis on just-in-time delivery while not overloading the team members.  
 
-The name ‘Kanban’ comes from the Japanese symbol 看板 - which rougthly translates to signboard or Billboard.
+The name ‘Kanban’ comes from the Japanese symbol かんばん - which rougthly translates to signboard or Billboard.
 
 **Origins of Kanban:**
 
