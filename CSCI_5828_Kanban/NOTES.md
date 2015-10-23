@@ -75,7 +75,11 @@ A methodology aimed primarily at reducing flow times within production as well a
 
 **Kanban Cards**
 Similar to agile story cards, Kanban cards are a key component of Kanban.  
-They are use to signal the need to move materials (stories) with in the production process.
+They are use to signal the need to move materials (stories) with in the production process.  
+
+There is a belief held that demand-driven systems lead to faster turnarounds in production and lower inventory levels, helping companies implementing such systems be more competitive.
+
+
 
 Need example of how the Kanban Card moves down the kanban board:
 1. visualize the Kanban board.
