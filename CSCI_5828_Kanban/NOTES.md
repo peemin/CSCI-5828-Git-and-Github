@@ -18,6 +18,10 @@ http://www.infoq.com/articles/hiranabe-lean-agile-kanban
 
 http://www.slideshare.net/fabokzs/kanban-basics-for-beginners
 
+http://www.toyota-global.com/company/toyota_traditions/quality/mar_apr_2004.html
+
+http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/just-in-time.html
+
 **What is Kanban:**
 
 A framework to manage knowlege base work, such as software development, with an emphisis on just-in-time delivery while not overloading the team members.  
