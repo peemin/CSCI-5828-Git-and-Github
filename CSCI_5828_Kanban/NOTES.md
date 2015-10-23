@@ -22,6 +22,8 @@ http://www.toyota-global.com/company/toyota_traditions/quality/mar_apr_2004.html
 
 http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/just-in-time.html
 
+http://leankit.com/kanban/kanban-board/
+
 **What is Kanban:**
 
 A framework to manage knowlege base work, such as software development, with an emphisis on just-in-time delivery while not overloading the team members.  
@@ -72,10 +74,12 @@ A methodology aimed primarily at reducing flow times within production as well a
   * Leadership at all levels
     * Acts of leadership at all levels in the organization, from individual contributors to senior management, are encouraged.
 
-** Kanban in the context of software development **
+**Kanban in the context of software development**
 Kanban in the context of software development can mean a visual process-management system that tells what to produce, when to produce it, and how much to produce
 
 Formulated by David Anderson, the Kanban Method is as an approach to incremental, evolutionary process and systems change for organizations. It uses a work-in-progress limited pull system as the core mechanism to expose system operation (or process) problems and stimulate collaboration to continuously improve the system. Visualisation is an important aspect of Kanban as it allows to understand the work and the workflow
+
+Kanban's core principles are the same in industries like software development and human resource management as they are in manufacturing: visualize your work, limit your work in process, focus on flow, and practice continuous improvement.
 
 **Kanban Cards**
 Similar to agile story cards, Kanban cards are a key component of Kanban.  
@@ -90,7 +94,10 @@ Kanban boards are perceived as a variation on traditional kanban cards. Instead 
 
 The most popular example of kanban board for agile or lean software development consists of: Backlog, Ready, Coding, Testing, Approval and Done columns. It is also a common practice to name columns in a different way, for example: Next, In Development, Done, Customer Acceptance, Live
 
+With kanban boards, you can:
 
-Need example of how the Kanban Card moves down the kanban board:
-1. visualize the Kanban board.
-2. how restocking occurs.
+Visually see work in progress
+1. Instantly understand impediments (things causing you to delay) and take steps to remove them
+2. Improve communication between yourself and others on your team
+3. Empower teams to self-manage visual processes and work flows
+4. Inspire team collaboration
