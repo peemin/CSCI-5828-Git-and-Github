@@ -197,7 +197,7 @@ Error: object 'unuse.2' not found</code></pre></div></div></section><section><di
 <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="7dbbd727e01960aaef8d09869efcc599"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;" dir="ui">
 <ul>
 	<li>
-<span style="font-size:42px">R has four main data types.  </span>
+<span style="font-size:42px">R has Four main data types.  </span>
 	<ul>
 		<li><span style="font-size:36px">Numeric </span></li>
 		<li><span style="font-size:36px">Character</span></li>
@@ -208,10 +208,10 @@ Error: object 'unuse.2' not found</code></pre></div></div></section><section><di
 	</ul>
 	</li>
 </ul>
-</div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="3fbee796abe3024b3b715830e598bf7b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
+</div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="960cbc2f597d1092c92e2e0060b2fb88"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
 <p>Basic Data Type: Numeric</p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="a620f8a0f45afffd172de3d1985191fd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;" dir="ui">
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="bda8818f4ed5b8125e921483c07a2015"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;" dir="ui">
 <ul>
 	<li><span style="font-size:42px">Numerics are numbers that can potentially contain floats </span></li>
 </ul>
@@ -308,7 +308,7 @@ Error: object 'unuse.2' not found</code></pre></div></div></section><section><di
 </div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="f293cde032e0d8678e6f9115121a4322"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 180%; text-align: left;">
 <p>Basic Data Type: Characters (2)</p>
 </div></div>
-<div class="sl-block" data-block-type="code" data-block-id="38d3189f683498625527c3df1335e5e9" style="min-width: 30px; min-height: 30px; width: 710px; height: 383px; left: 127px; top: 140px;"><div class="sl-block-content" style="z-index: 12; font-size: 200%;"><pre><code>&gt; a &lt;- "A"
+<div class="sl-block" data-block-type="code" data-block-id="38d3189f683498625527c3df1335e5e9" style="min-width: 30px; min-height: 30px; width: 710px; height: 501px; left: 127px; top: 140px;"><div class="sl-block-content" style="z-index: 12; font-size: 200%;"><pre class="r"><code>&gt; a &lt;- "A"
 &gt; class(a)
 [1] "character"
 &gt; b &lt;- 'B'
@@ -316,20 +316,129 @@ Error: object 'unuse.2' not found</code></pre></div></div></section><section><di
 &gt; hello
 [1] "Hello CSCI 5828"
 &gt; class(hello)
-[1] "character"</code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="d5fc20fabd6cf61ae0486b484b67f6b1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
-<p>Basic Data Type: Dates</p>
+[1] "character"
+# return the number of characters
+&gt; nchar(hello)
+[1] 15
+</code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="2ae9df9975143ecff77a264ef08e6bc7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
+<p>Basic Data Type: Date/POSIXct</p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="d458abc957e05206b010709ce07039bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;" dir="ui">
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="7bb767e6daf8b4e93bb099b3e4aef4e1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;" dir="ui">
 <ul>
 	<li>
-<span style="font-size:42px">Characters are variables that contain non-numeric data</span><span style="font-size:42px">​</span>
+<span style="font-size:42px">R has many different data types to deal with date and time.  Two most useful types are </span>
 	<ul>
-		<li><span style="font-size:42px">​double or single quotes are used to denote characters.</span></li>
+		<li>
+<span style="font-size:42px">​Date - Stores only a date</span>
+		<ul>
+			<li><span style="font-size:42px">​Number of days from January 1, 1970.</span></li>
+		</ul>
+		</li>
+		<li>
+<span style="font-size:42px">POSIXct - Stores a date and time</span>
+		<ul>
+			<li><span style="font-size:42px">​Number of seconds since January 1, 1970 <span style="font-size:42px"><span style="font-size:42px"><span style="font-size:42px">            </span></span></span></span></li>
+		</ul>
+		</li>
 	</ul>
 	</li>
-	<li><span style="font-size:42px">Unlike most other programming languages, there is not distinction between characters and strings.<span style="font-size:42px"><span style="font-size:42px">               </span></span></span></li>
 </ul>
-</div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 477px; left: 3px; top: 0px;" data-block-id="8f705760331a4db5e3160224317ff967"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 180%;">
+</div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="40e1103afccf1ffc7c32008cb20a02f7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 180%; text-align: left;">
+<p>Basic Data Type: <span style="color:rgb(255, 255, 255)">Date/POSIXct</span> (2)</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 830px; height: 514px; left: 67px; top: 117px;" data-block-id="2fa410e22b752ebf2a190bbf1b3b7ce6"><div class="sl-block-content" style="z-index: 12; font-size: 200%;"><pre class="r"><code>&gt; date1 &lt;- as.Date("2015-11-08")
+&gt; date1
+[1] "2015-11-08"
+&gt; as.numeric(date1)
+[1] 16747
+&gt; class(date1)
+[1] "Date"
+&gt; date2 &lt;- as.POSIXct("2015-11-08 17:42:10")
+&gt; as.numeric(date2)
+[1] 1447029730
+&gt; class(date2)
+[1] "POSIXct" "POSIXt" </code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="3fbee796abe3024b3b715830e598bf7b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
+<p>Basic Data Type: Logical</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="a620f8a0f45afffd172de3d1985191fd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;" dir="ui">
+<ul>
+	<li>
+<span style="font-size:42px">Booleans, the simplest of all the data types, contain a single bit to indicate a binary response </span>
+	<ul>
+		<li><span style="font-size:42px">FALSE = 0 / TRUE<span style="font-size:42px">​ = 1                            </span> </span></li>
+	</ul>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="1abaac7071bd49899b4eaec53f510e2a" style="min-width: 30px; min-height: 30px; width: 433px; height: 350px; left: 0px; top: 350px;"><div class="sl-block-content" style="z-index: 12; font-size: 175%;"><pre class="r"><code>&gt; a = TRUE
+&gt; b = FALSE
+&gt; class(a)
+[1] "logical"
+&gt; a
+[1] TRUE
+&gt; as.numeric(a)
+[1] 1</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 433px; height: 350px; left: 527px; top: 350px;" data-block-id="4a10140b8da26c0ba5414fa5e0020593"><div class="sl-block-content" style="z-index: 14; font-size: 175%;"><pre class="r"><code>&gt; is.logical(b)
+[1] TRUE
+&gt; TRUE * 5
+[1] 5
+&gt; FALSE * 5
+[1] 0
+2 ==3
+[1] FALSE</code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="a50af2a1ee7adb0bb9b2acbe7780bbf0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
+<p>Composite Variables</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="b50b968cf03d77c0e3fca5f446937bd9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; letter-spacing: 0.09em;" dir="ui" data-has-letter-spacing="">
+<p><span style="font-size:1.4em">Like most other programming languages, R also have objects to that can contain composite data structures.  </span></p>
+
+<ul>
+	<li><span style="font-size:42px"><span style="font-size:42px">Vectors - single dimensional data structure</span></span></li>
+	<li><span style="font-size:42px">Matrix - two dimensional data structure </span></li>
+	<li><span style="font-size:42px">Data Frames - Matrices with column names   </span></li>
+	<li>
+<span style="font-size:42px">and many more.                 </span><span style="font-size:42px">​ </span>
+</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="dfda1c690d4a63546c0b12f1433fc80c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 180%; text-align: left;">
+<p>Function Documentation/Help</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="d0d24150dc357b619d8ed863da06fce8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;" dir="ui">
+<p><span style="font-size:1.4em">Similar to the unix man pages, many of the functions in R provide help documentation. </span></p>
+
+<ul>
+	<li><span style="font-size:1.4em">The easiest way to access the documentation is to use the question mark (?) operator in front of the function name.</span></li>
+	<li>
+<span style="font-size:1.4em">What if we don't know the actual function, but have an idea of the function name?</span>
+	<ul>
+		<li><span style="font-size:1.4em"><em>​apropos(string)</em> function will return function names that contain the string</span></li>
+	</ul>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="2baa2fe30297f03191bb2b7fd9222879"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 180%; text-align: left;">
+<p>Function Documentation/Help (2)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 456px; left: 0px; top: 91px; height: auto;" data-block-id="e0342f58c0531dac84b6cbd836b56c52"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;" dir="ui">
+<p><span style="font-size:1.4em">​Documentation Help </span></p>
+
+<p><span style="font-size:1.4em">&gt; ? mean </span></p>
+
+<p> </p>
+
+<p><span style="font-size:1.4em">will launch the R Documentation page for the <em>mean</em> function</span></p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="2bd65b747aa0fe511a69f48f785ac095" style="min-width: 30px; min-height: 30px; width: 513.645px; height: 461px; left: 447px; top: 210px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="722" data-natural-height="648" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/383873/images/1924698/mean.PNG"></div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 3px; top: 0px;" data-block-id="57591b243964895f77b0b2dd2ad3856e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 180%; text-align: left;">
+<p>Function Documentation/Help (3)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 376px; left: 0px; top: 91px; height: auto;" data-block-id="94a106341f08f34fbac1fb8740487fb6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;" dir="ui">
+<p>​<span style="font-size:1.4em">apropos function </span></p>
+
+<p> </p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ee40b1df7104668b171adda53c09a854" style="min-width: 30px; min-height: 30px; width: 812.443px; height: 534px; left: 74px; top: 166px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="639" data-natural-height="420" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/383873/images/1924718/console.PNG"></div></div></section><section><div class="sl-block" data-block-type="text" style="height: auto; width: 477px; left: 3px; top: 0px;" data-block-id="8f705760331a4db5e3160224317ff967"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 180%;">
 <p>References</p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 91px; height: auto;" data-block-id="f5256d59e82f86ab2bccb64c4e35923d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; line-height: 2.223;" dir="ui" data-has-line-height="">
