@@ -1,0 +1,3 @@
+# peemin.github.io
+Github Pages - Using this as an example of ChickTech High School Girl porfolio.
+1. the first page is for you to create - it can be used as a blog, resume, etc....
